@@ -1,0 +1,123 @@
+
+<html>
+<head>
+    
+    <title>View Items</title>
+
+<style>
+
+ body{
+                margin:0;
+            }
+      #nav{
+                background-color: black;
+                height:70px;
+                width:100%;
+                border-bottom: red solid 2px;
+                position: relative;
+            }
+                #footer{
+                background-color: black;
+                height: 120px;
+                width:100%;
+                color:red;
+                position: absolute;
+               top: 466px;
+                display: flex;
+                justify-content: center;
+                border-top:red 2px solid ;
+
+
+            }
+            #address{
+                margin-right: 180px;
+            }
+            #heading{
+                margin-top:4px;
+                color:white;
+                position: absolute;
+                top:20px;
+                left:40%;
+            }
+            #formAdd{
+               position: absolute;
+               left:38%;
+               top:140px;
+            }
+              button{
+
+                height: 25px;
+                width:80px;
+                background-color:black;
+              box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.7);
+              color:white;
+               
+            }
+             table{
+                  border-collapse: collapse;
+                  
+              }
+            
+            th,td{
+                border: 2px solid black;
+              
+                padding: 10px;
+            }
+            a{
+                color:white;
+                text-decoration: none;
+            }
+</style>
+
+</head>
+<body>
+
+      <div id="nav">
+                   <h1 id="heading"> Resto management</h1>
+              
+            </div>    
+
+<button id="addButton"> <a href="Home.html">HOME</a> </button>
+    <div id="formAdd">        
+    <h2>View Items</h2>
+
+    <!--<input type="text" id="searchInput" placeholder="Search for orders..."><button onclick="serach">search</button>-->
+    <table id="itemTable">
+        <thead>
+            <tr>
+                <th>Sr No</th>
+                <th>Item</th>
+                <th>Cost</th>
+                <th>Type</th>
+            </tr>
+        </thead>
+        <tbody id="itemList">
+          
+        </tbody>
+    </table>
+</div>
+
+
+
+
+
+
+
+    <div id="footer">
+                <div id="address">
+                    <h3>Visit Us</h3>
+                    <p>Demo Road, Demo City ,</p> 
+                    <p>Demo State 400 232</p>
+                  
+                   
+                </div>
+                <div id="contact">
+                    <h3>Contact Info</h3>
+                    <p>Email: resto@gmail.com</p>
+                    <p>Phone:9988776655</p>
+                </div>
+    </div>
+
+    <script src="ViewMenu.js"></script>
+</body>
+</html>

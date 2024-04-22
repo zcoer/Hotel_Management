@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete Items</title>
+
+
+    <style>
+            
+ body{
+                margin:0;
+            }
+      #nav{
+                background-color: black;
+                height:70px;
+                width:100%;
+                border-bottom: red solid 2px;
+                position: relative;
+            }
+                #footer{
+                background-color: black;
+                height: 120px;
+                width:100%;
+                color:red;
+                position: relative;
+               top: 466px;
+                display: flex;
+                justify-content: center;
+                border-top:red 2px solid ;
+
+
+            }
+            #address{
+                margin-right: 180px;
+            }
+            #heading{
+                margin-top:4px;
+                color:white;
+                position: absolute;
+                top:20px;
+                left:40%;
+            }
+            #formAdd{
+               position: absolute;
+               left:38%;
+               top:140px;
+            }
+              table{
+                  border-collapse: collapse;
+                  
+              }
+            
+            th,td{
+                border: 2px solid black;
+              
+                padding: 10px;
+            }
+            button{
+
+                height: 25px;
+                width:80px;
+                color:white;
+                background-color: black;
+                box-shadow: 0px 0px 20px rgba(255, 0, 0, 0.7);
+            
+               
+            }
+             a{
+                color:white;
+                text-decoration: none;
+            }
+     </style>   
+</head>
+<body>
+
+      <div id="nav">
+                   <h1 id="heading"> Resto management</h1>
+              
+            </div>    
+
+<button id="addButton"> <a href="Home.html">HOME</a> </button>
+
+     <div id="formAdd">       
+    <h2>Delete Items</h2>
+    <table id="deleteTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Type</th>
+                <th>Cost</th>
+                <th>Select</th>
+            </tr>
+        </thead>
+        <tbody id="deleteList">
+            <!-- Item rows will be added dynamically here -->
+        </tbody>
+    </table>
+    <button id="deleteButton">Delete </button>
+     </div>
+
+
+
+
+
+
+    <script src="DeleteMenu.js"></script>
+
+    <div id="footer">
+                <div id="address">
+                    <h3>Visit Us</h3>
+                    <p>Demo Road, Demo City ,</p> 
+                    <p>Demo State 400 232</p>
+                  
+                   
+                </div>
+                <div id="contact">
+                    <h3>Contact Info</h3>
+                    <p>Email: resto@gmail.com</p>
+                    <p>Phone:9988776655</p>
+                </div>
+             </div>
+</body>
+</html>
